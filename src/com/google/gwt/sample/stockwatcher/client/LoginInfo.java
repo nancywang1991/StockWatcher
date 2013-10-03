@@ -27,7 +27,7 @@ public class LoginInfo implements Serializable {
   }
 
   public String getLogoutUrl() {
-    return loginUrl;
+    return logoutUrl;
   }
 
   public void setLogoutUrl(String logoutUrl) {
