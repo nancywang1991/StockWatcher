@@ -19,7 +19,7 @@ public class LoginInfo implements Serializable {
   }
 
   public String getLoginUrl() {
-    return loginUrl;
+    return logoutUrl;
   }
 
   public void setLoginUrl(String loginUrl) {

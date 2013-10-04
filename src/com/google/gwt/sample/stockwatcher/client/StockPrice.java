@@ -27,7 +27,7 @@ public class StockPrice {
 	  }
 
 	  public double getChangePercent() {
-	    return 100 * this.change / this.price;
+	    return 100 * this.price/this.change;
 	  }
 
 	  public void setSymbol(String symbol) {
