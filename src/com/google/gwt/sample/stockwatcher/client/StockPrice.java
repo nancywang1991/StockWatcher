@@ -19,7 +19,7 @@ public class StockPrice {
 	  }
 
 	  public double getPrice() {
-		  return price;
+		  return 0;
 	  }
 
 	  public double getChange() {
