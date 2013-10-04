@@ -19,7 +19,7 @@ public class StockPrice {
 	  }
 
 	  public double getPrice() {
-		  return 99; //Paul
+		  return this.change + this.price;
 	  }
 
 	  public double getChange() {
