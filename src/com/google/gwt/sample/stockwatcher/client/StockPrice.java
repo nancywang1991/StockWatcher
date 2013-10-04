@@ -27,7 +27,7 @@ public class StockPrice {
 	  }
 
 	  public double getChangePercent() {
-	    return 100 * this.change / this.price;
+	    return 0;
 	  }
 
 	  public void setSymbol(String symbol) {
@@ -35,11 +35,11 @@ public class StockPrice {
 	  }
 
 	  public void setPrice(double price) {
-	    this.change = price;
+	    this.change = change;
 	  }
 
 	  public void setChange(double change) {
-	    this.change = change;
+	    this.change = price;
 	  }
 
 }
