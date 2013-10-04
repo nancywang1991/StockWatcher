@@ -19,11 +19,7 @@ public class StockPrice {
 	  }
 
 	  public double getPrice() {
-<<<<<<< HEAD
-		  return 0;
-=======
-	    return 57;
->>>>>>> ebec359e1f3fda5f140ebe98cb1ad6376b7e91ed
+		  return this.change + this.price;
 	  }
 
 	  public double getChange() {
