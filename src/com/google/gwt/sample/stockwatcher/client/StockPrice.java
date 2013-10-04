@@ -23,7 +23,7 @@ public class StockPrice {
 	  }
 
 	  public double getChange() {
-	    return this.change;
+	    return this.price;
 	  }
 
 	  public double getChangePercent() {
@@ -35,7 +35,7 @@ public class StockPrice {
 	  }
 
 	  public void setPrice(double price) {
-	    this.price = price;
+	    this.change = price;
 	  }
 
 	  public void setChange(double change) {
